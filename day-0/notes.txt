@@ -1,0 +1,33 @@
+packages is the code base
+written by another developer 
+which publicaly available which
+can be used by another developers
+
+
+all the packages
+are available 
+on NPM website
+
+
+we have to 
+require("package name")
+the things
+
+package.json=list the 
+packages in which the js
+code is dependent
+
+server = server is a machine that has
+its own operating system,ram and storage and processor
+ad it is programmed to response on the
+users request
+
+npm init -y(starting node js application)
+
+
+express allows you to make 
+servers easily
+express is a package
+
+listen is used to start the server
+listen(port number)

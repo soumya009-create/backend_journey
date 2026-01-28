@@ -1,0 +1,52 @@
+today we gonna talk about api
+this gonna be one of the important topics 
+that we have 
+
+
+api=aplication programming interfaces
+An API is a set of 
+rules and protocols that allows
+ one software application to 
+ request and exchange data or
+  services with another application,
+   without knowing its internal
+    implementation.
+
+we need to learn about rest api
+for connecting client and server we use rest api
+
+1.http & https protocol would be used 
+(this is rest frontend+backend)
+2.Methods
+Get->retrieve a resourse or a list of resourses.should not modify data on the server
+post ->creates a new resource 
+put->fpr updating the resource
+patch->small part updation simmilar like put
+delete->resource already exist on server used to delete its
+
+
+post gives us lots of tools
+by which we can create and develop api very easily
+
+
+request goes onto request.body
+
+req=all the data coming from the frontend
+we can acess from req
+
+res=used when we want to send response to the request from the data
+
+
+user->request+some data(as a jason)->take it as json in server 
+
+request.params=>indexing /notes/:index
+
+when we need to transfer single value then 
+using param is the best option
+
+otherwise req.body is good option
+
+which one to use
+in terms of using updation Methods
+->patch(only a single part)
+
