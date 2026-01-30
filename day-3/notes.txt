@@ -1,0 +1,30 @@
+mainly ini this topic 
+we gonna learn about the
+status codes
+
+201 for post 
+200 for get 
+200 for delete 
+
+
+
+mongodb atlas 
+create new project
+credentials
+mongodb compass
+
+cluster is the combination of 
+storage+processor
+cloud=>mongodb atlas
+server=>web servers=>express
+database=>one type of server
+mongodb company=>created bohot sare database
+server create kiya,
+in different different locations lets say
+india,usa and another areas
+we gonna use a very very small part from the server 
+and we gonna store the values into into it 
+
+
+0.0.0.0/0=>allow access from anywhere
+44 minute
