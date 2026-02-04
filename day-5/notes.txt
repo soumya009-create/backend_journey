@@ -1,0 +1,23 @@
+we need to tell the database
+in which format we gonna store the database
+
+we need to create schema which is the 
+database design
+
+{
+    title-string type
+    description-string type
+}
+
+notemodel is importan part and the first name is about the collection name and the other is the 
+db design or we can say the format in which we are putting the data
+
+ "_id": "697e09ebda969bd258b2dbd3",
+        "__v": 0   // what are those?
+_id 👉 Auto-generated unique ID given by MongoDB to identify each document.
+
+__v 👉 Version key used by Mongoose to track document updates 
+
+
+find() always returns values as a collection or object in array
+ctrl+r == for reload

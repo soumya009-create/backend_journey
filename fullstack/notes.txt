@@ -1,0 +1,40 @@
+dotenv is a package by which you can acess the values
+
+
+axios is used for calling api from frontend
+
+any api call from axios use the same name as method used in rest api
+
+cors policy=>browser site implementation
+when you are in a browser ,you can not request another browser
+
+
+/// this is the important notice 
+
+you need to open new terminals for both frontend and backend
+
+
+
+why use effect is needed and important
+
+
+when you change the value of notes 
+the app component re renders again you set again re render 
+
+
+app()
+.
+.
+console.log(hi)
+.
+.
+setnotes(res.data.note)
+
+the loop continuesly goes on
+when you use the use effect the value that you have set around renders only one time 
+
+
+wild card entry 
+app.use('*name",(req,res)=>{
+    res.sendFile("./index.html")
+})

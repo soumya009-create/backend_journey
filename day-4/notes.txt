@@ -1,0 +1,18 @@
+there can be multiple db in a single cluster
+cluster is a area in mongodb database server
+
+
+
+but we need to connect with any of the databases in cluster
+moongose is a package used to connect database and server
+or we can say specificly mooongose.connect(uri)
+by uri you connects till cluster
+MongoDB Atlas is a cloud database service that acts as a database server, so we don’t need to install MongoDB locally.
+We create clusters and databases on Atlas.
+MongoDB Compass is a GUI tool used to view and perform CRUD operations on the database.
+The MongoDB URI is the connection string used by clients like Compass and Mongoose to connect to the Atlas cluster.
+Mongoose is used to connect the MongoDB database with the Express backend server.
+MongoDB does NOT open a physical “MongoDB office/branch” in Mumbai.
+Atlas runs on cloud providers’ data centers, and Mumbai is just the physical location of those servers.
+
+what about ip adress change=you can check which which ip can access you ip adresses
