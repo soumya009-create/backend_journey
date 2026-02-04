@@ -6,5 +6,5 @@ const connection=require("./src/config/database")
 
 connection()
 app.listen(3000,()=>{
-    console.log("server is running fine");
+    console.log("server is running fine on port 3000");
 })

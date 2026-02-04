@@ -1,8 +1,14 @@
 // server ko config karna
 const express=require("express")
+const cors=require("cors")
 const noteModel=require("./models/note.model")
+
 const app=express()
 app.use(express.json())
+
+//cors part
+
+app.use(cors())
 // lets create api 
 // notecreation
 app.post("/notes", async (req,res)=>{
@@ -41,7 +47,7 @@ app.patch("/notes/:id", async (req,res)=>{
     const {description}=req.body
     await noteModel.findByIdAndUpdate(id,{description})
 
-    
+
     res.status(200).json({
         message:"note updated",
         
